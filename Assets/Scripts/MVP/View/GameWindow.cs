@@ -11,9 +11,8 @@ namespace MVP.View
         [SerializeField] private Button increasingValueButton;
         [SerializeField] private Button decreasingValueButton;
         [SerializeField] private Button clearingValueButton;
-        
-        public GameWindowPresenter Presenter { get; private set; }
 
+        private GameWindowPresenter Presenter { get; set; }
         
         private void Start()
         {

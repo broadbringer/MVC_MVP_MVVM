@@ -18,6 +18,10 @@ namespace MVVM.ViewModel
 
         public ReactiveProperty<int> SomeValue;
         
+        public void IncreaseValue() => model.IncreaseValue();
+        public void DecreaseValue() => model.DecreaseValue();
+        public void SetByDefault() => model.SetValueByDefault();
+        
         private void Bind()
         {
             model.AmountOfTree
@@ -25,8 +29,6 @@ namespace MVVM.ViewModel
                 .Subscribe(xs => SomeValue.Value = xs);
         }
 
-        public void IncreaseValue() => model.IncreaseValue();
-        public void DecreaseValue() => model.DecreaseValue();
-        public void SetByDefault() => model.SetValueByDefault();
+        
     }
 }

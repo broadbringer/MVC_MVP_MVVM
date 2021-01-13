@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace MVVM.View
 {
-    public class GameWindowView : MonoBehaviour
+    public class GameWindow : MonoBehaviour
     {
         [SerializeField] private TextMeshProUGUI someValue;
         [SerializeField] private ButtonSettings increaseButton;

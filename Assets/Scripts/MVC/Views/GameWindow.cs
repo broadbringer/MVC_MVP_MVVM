@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections;
-using MVC.Controllers;
+using MVC.Controller;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -13,9 +13,8 @@ namespace MVC.Views
         [SerializeField] private Button increasingValueButton;
         [SerializeField] private Button decreasingValueButton;
         [SerializeField] private Button clearingValueButton;
-        
-        public GameWindowController Controller { get; private set; }
 
+        private GameWindowController Controller { get; set; }
         
         private void Start()
         {
