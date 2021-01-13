@@ -1,5 +1,5 @@
-﻿using MVC.Models;
-using MVC.Views;
+﻿using MVC.Model;
+using MVC.View;
 
 namespace MVC.Controller
 {

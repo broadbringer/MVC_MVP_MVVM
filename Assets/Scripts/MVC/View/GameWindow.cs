@@ -1,11 +1,9 @@
-﻿using System;
-using System.Collections;
-using MVC.Controller;
+﻿using MVC.Controller;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace MVC.Views
+namespace MVC.View
 {
     public class GameWindow : MonoBehaviour
     {

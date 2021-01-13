@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MVC.Models
+namespace MVC.Model
 {
     public class GameWindowModel
     {
