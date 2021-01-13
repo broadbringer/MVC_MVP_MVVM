@@ -5,8 +5,7 @@ namespace MVP.Model
     public class GameWindowModel
     {
         public event Action<int> DisplayedValueChanged;
-        public int DisplayedValue => displayedValue;
-        
+
         private int displayedValue;
 
         public GameWindowModel()
