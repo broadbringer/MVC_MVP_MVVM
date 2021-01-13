@@ -3,7 +3,7 @@ using UniRx;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace MVVM.View
+namespace MVVM.Wrapper
 {
     public class ButtonSettings : MonoBehaviour, IBindableButton
     {

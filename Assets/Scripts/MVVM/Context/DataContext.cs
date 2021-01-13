@@ -1,6 +1,5 @@
 using System;
 using MVVM.Interface;
-using MVVM.View;
 using TMPro;
 using UniRx;
 

@@ -1,7 +1,7 @@
 using MVVM.Context;
 using MVVM.ViewModel;
+using MVVM.Wrapper;
 using TMPro;
-using UniRx;
 using UnityEngine;
 
 namespace MVVM.View

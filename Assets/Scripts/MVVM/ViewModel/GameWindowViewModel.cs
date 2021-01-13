@@ -1,7 +1,5 @@
 using MVVM.Model;
-using MVVM.View;
 using UniRx;
-using UnityEngine;
 
 namespace MVVM.ViewModel
 {
